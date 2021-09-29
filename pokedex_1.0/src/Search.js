@@ -1,25 +1,20 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-
-class Search extends Component {
-    render(){
+const Search = (props)=> {
+    const {recup, requete, req} = props;
       return(
         <>
-    <form className="d-flex" action="/" method="get">
+    <form className="d-flex" onSubmit={(e)=>{e.preventDefault();requete()}}>
         <label htmlFor="header-search">
             <span className="visually-hidden">Search</span>
         </label>
         <input
             className="form-control me-2"
-            type="text"
-            id="header-search"
-            placeholder="Search blog posts"
-            name="s" 
+            type="text" onChange={recup}  value={req} className="form-control" placeholder="Search"
         />
         <button className="btn btn-outline-success" type="submit">Search</button>
     </form>
       </>
       )
     }
-}
-    export default Search;
+export default Search;
