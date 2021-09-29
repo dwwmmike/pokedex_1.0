@@ -3,19 +3,17 @@ function Footer() {
     return (
         <>
 
-<footer className="text-center text-lg-start bg-light text-muted fixed-bottom">
+<footer className="text-center text-lg-start bg-light text-muted">
 
-  <section
+  {/* <section
     className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-  >
+  > */}
 
-    <div className="me-5 d-none d-lg-block">
+    {/* <div className="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
-    </div>
+    </div> */}
 
-
-
-    <div>
+    {/* <div>
       <a href="" className="me-4 text-reset">
         <i className="fab fa-facebook-f"></i>
       </a>
@@ -36,7 +34,7 @@ function Footer() {
       </a>
     </div>
 
-  </section>
+  </section> */}
 
 
   <section className="">
@@ -118,7 +116,7 @@ function Footer() {
 
   <div className="text-center p-4">
     © 2021 Copyright:
-    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a className="text-reset fw-bold" href="#">Pokedex</a>
   </div>
 
 </footer>

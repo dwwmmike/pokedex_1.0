@@ -1,0 +1,74 @@
+[
+    {
+        "id":"001",
+        "photo":"./img/001.png",
+        "nom":"Bulbizarre",
+        "desc":"Il y a une graine sur son dos depuis sa naissance. Elle grossit un peu chaque jour.",
+        "type":["Plante","Poison"],
+        "faiblesses":["Feu","Psy","Vol","Glace"]
+    },
+    {
+        "id":"002",
+        "photo":"./img/002.png",
+        "nom":"Herbizarre",
+        "desc":"Son bulbe dorsal est devenu si gros qu'il ne peut plus se tenir sur ses pattes postérieures.",
+        "type":["Plante","Poison"],
+        "faiblesses":["Feu","Psy","Vol","Glace"]
+    },
+    {
+        "id":"003",
+        "photo":"./img/003.png",
+        "nom":"Florizarre",
+        "desc":"Sa plante donne une grosse fleur quand elle absorbe les rayons du soleil. Il est toujours à la recherche des endroits les plus ensoleillés.",
+        "type":["Plante","Poison"],
+        "faiblesses":["Feu","Psy","Vol","Glace"]
+    },
+    {
+        "id":"004",
+        "photo":"./img/004.png",
+        "nom":"Salamèche",
+        "desc":"Il préfère ce qui est chaud. En cas de pluie, de la vapeur se forme autour de sa queue.",
+        "type":["Feu"],
+        "faiblesses":["Eau","Sol","Roche"]
+    },
+    {
+        "id":"005",
+        "photo":"./img/005.png",
+        "nom":"Reptincel",
+        "desc":"Il est très brutal. En combat, il se sert de ses griffes acérées et de sa queue enflammée pour mettre en pièces ses adversaires.",
+        "type":["Feu"],
+        "faiblesses":["Eau","Sol","Roche"]
+    },
+    {
+        "id":"006",
+        "photo":"./img/006.png",
+        "nom":"Dracaufeu",
+        "desc":"Son souffle brûlant peut faire fondre la roche. Il est parfois la cause d'incendies de forêt.",
+        "type":["Feu"],
+        "faiblesses":["Eau","Sol","Roche"]
+    },
+    {
+        "id":"007",
+        "photo":"./img/007.png",
+        "nom":"Carapuce ",
+        "desc":"Quand il rentre son cou dans sa carapace, il peut projeter de l'eau à haute pression.",
+        "type":["Eau"],
+        "faiblesses":["Plante","Electrik"]
+    },
+    {
+        "id":"008",
+        "photo":"./img/008.png",
+        "nom":"Carabaffe",
+        "desc":"Il est considéré comme un symbole de longévité. On reconnaît les spécimens les plus âgés à la mousse qui pousse sur leur carapace.",
+        "type":["Eau"],
+        "faiblesses":["Plante","Electrik"]
+    },
+    {
+        "id":"009",
+        "photo":"./img/009.png",
+        "nom":"Tortank ",
+        "desc":"Il écrase ses adversaires de tout son poids pour leur faire perdre connaissance. Il rentre dans sa carapace s'il se sent en danger.",
+        "type":["Eau"],
+        "faiblesses":["Plante","Electrik"]
+    }
+]
